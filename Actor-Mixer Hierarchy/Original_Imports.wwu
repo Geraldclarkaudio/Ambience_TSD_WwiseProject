@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12228E93-22D4-42BC-8312-964D44610BBE}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Original_Imports" ID="{12228E93-22D4-42BC-8312-964D44610BBE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Quarry_OpenArea_Ambience" ID="{02D75E1D-7200-4B27-BB1F-8DAFF79AB59E}" ShortID="171093838">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{888A2135-F196-4D9A-8CEC-6044EABB6522}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Quarry_OpenArea_Ambience" ID="{EAFCA862-F3E1-4033-84FE-2A05567BFF29}">
+							<Language>SFX</Language>
+							<AudioFile>Ambiences\Quarry_OpenArea_Ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="233218356"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Quarry_OpenArea_Ambience" ID="{EAFCA862-F3E1-4033-84FE-2A05567BFF29}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Halls_AMB" ID="{69FA949B-15B2-4613-B151-B0B03176126A}" ShortID="402923209">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{888A2135-F196-4D9A-8CEC-6044EABB6522}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Halls_AMB" ID="{C7771751-7300-482A-B5A0-1D07BDC8F1A3}">
+							<Language>SFX</Language>
+							<AudioFile>Ambiences\Halls_AMB.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="132205299"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Halls_AMB" ID="{C7771751-7300-482A-B5A0-1D07BDC8F1A3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2118739319",
+    "Type": "User",
+    "GUID": "{EDC5B05B-E9D1-403F-803F-0AC42D4A38A7}",
+    "Language": "SFX",
+    "Hash": "{4089C5CD-49E9-C313-39FE-014D26EAFC7E}",
+    "ObjectPath": "\\SoundBanks\\Area_Specific\\Terminal_SB",
+    "ShortName": "Terminal_SB",
+    "Path": "Terminal_SB.bnk",
+    "Media": [
+     {
+      "Id": "14376393",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Ambiences\\Quarry_OpenArea_Ambience.wav",
+      "Path": "Media/14376393.wem",
+      "CachePath": "9E/{9E691EF6-369B-D27F-BEB0-DED99F8EB0C5}.wem"
+     },
+     {
+      "Id": "971195415",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Ambiences\\Halls_AMB.wav",
+      "Path": "Media/971195415.wem",
+      "CachePath": "BE/{BEE9BDEA-C9C8-4630-27B8-8AA71DD3E316}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "385465618",
+      "Name": "Play_Courtyard_AMB",
+      "ObjectPath": "\\Events\\Terminal\\Ambiences\\Play_Courtyard_AMB",
+      "GUID": "{F56DC96C-50C9-4BD0-AC13-B0E17E1624DC}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "14376393"
+       }
+      ]
+     },
+     {
+      "Id": "1175029690",
+      "Name": "Play_Room_AMB",
+      "ObjectPath": "\\Events\\Terminal\\Ambiences\\Play_Room_AMB",
+      "GUID": "{F475F9A3-7EF6-427B-828A-9688286659D3}",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "971195415"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5F165BC7-E209-8541-E536-52C1EBBEDA87}"
+ }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{4C4A210F-8CBB-48E2-8E0A-41EF9705FDAD}" WorkUnitID="{82DA67D2-5581-4B95-B755-C42B42A7F641}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reverbs" ID="{60352D1F-B004-404C-AAC1-70B0EBEEA117}">
+							<ChildrenList>
+								<AuxBus Name="Courtyard" ID="{72DD58AC-C3D9-4C96-8706-A8FB9FC97600}"/>
+								<AuxBus Name="Room" ID="{D8546A3B-F6CF-4B78-87EA-4A327F997C41}"/>
+								<AuxBus Name="Beach" ID="{3EF9C2CF-89E4-435A-9381-0AEA24501001}"/>
+								<AuxBus Name="Space" ID="{1BB9F842-E8C2-4CE2-ADC6-C3696B84C8E6}"/>
+								<AuxBus Name="Desert" ID="{6EC3DBC1-E192-40C8-B22E-C244FBC58487}"/>
+							</ChildrenList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

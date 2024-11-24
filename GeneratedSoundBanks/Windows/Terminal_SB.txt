@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	385465618	Play_Courtyard_AMB			\Terminal\Ambiences\Play_Courtyard_AMB	
+	1175029690	Play_Room_AMB			\Terminal\Ambiences\Play_Room_AMB	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	14376393	Courtyard_AMB	C:\Users\Gerald\Desktop\Wwise Projects\Ambience_TSD_WwiseProject\.cache\9E\{9E691EF6-369B-D27F-BEB0-DED99F8EB0C5}.wem	14376393.wem	\Actor-Mixer Hierarchy\Ambience\Courtyard_AMB	
+	971195415	Room_AMB	C:\Users\Gerald\Desktop\Wwise Projects\Ambience_TSD_WwiseProject\.cache\BE\{BEE9BDEA-C9C8-4630-27B8-8AA71DD3E316}.wem	971195415.wem	\Actor-Mixer Hierarchy\Ambience\Room_AMB	
+

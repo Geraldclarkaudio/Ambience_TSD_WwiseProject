@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Terminal" ID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Ambiences" ID="{0D8FF3CC-CE09-49B4-B0F3-58C1931D590B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

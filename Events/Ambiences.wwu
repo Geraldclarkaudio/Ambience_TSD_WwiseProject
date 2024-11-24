@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D8FF3CC-CE09-49B4-B0F3-58C1931D590B}" SchemaVersion="123" RootDocumentID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}" ParentDocumentID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}">
+	<Events>
+		<WorkUnit Name="Ambiences" ID="{0D8FF3CC-CE09-49B4-B0F3-58C1931D590B}" OwnerID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Courtyard_AMB" ID="{F56DC96C-50C9-4BD0-AC13-B0E17E1624DC}">
+					<ChildrenList>
+						<Action Name="" ID="{364A4DD6-976A-4DB3-A48B-60F9B9C73A1B}" ShortID="946842561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Courtyard_AMB" ID="{F8832BAC-7647-4D1B-850C-0ED879EFC9FC}" WorkUnitID="{20554F6A-2B79-446E-9683-8E724796411D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Room_AMB" ID="{F475F9A3-7EF6-427B-828A-9688286659D3}">
+					<ChildrenList>
+						<Action Name="" ID="{5C54D91C-234C-4CEC-BB79-1CD1407FD4D3}" ShortID="766344724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Room_AMB" ID="{9D7DEDE5-A621-4F93-A1C0-9C0A6EAEC0F0}" WorkUnitID="{20554F6A-2B79-446E-9683-8E724796411D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

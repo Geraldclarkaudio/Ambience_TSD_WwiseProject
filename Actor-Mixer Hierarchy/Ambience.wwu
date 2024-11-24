@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20554F6A-2B79-446E-9683-8E724796411D}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{20554F6A-2B79-446E-9683-8E724796411D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Room_AMB" ID="{9D7DEDE5-A621-4F93-A1C0-9C0A6EAEC0F0}" ShortID="489404799">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="5m" ID="{BFDB3CB6-43EB-4973-AA01-582175EFA0E9}" WorkUnitID="{6D32D8FB-B4B1-4248-B48C-0162CAE5AF10}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{888A2135-F196-4D9A-8CEC-6044EABB6522}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Halls_AMB" ID="{6ECA06E4-30CC-4E6D-B909-DD7B503B2933}">
+							<Language>SFX</Language>
+							<AudioFile>Ambiences\Halls_AMB.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="971195415"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Halls_AMB" ID="{6ECA06E4-30CC-4E6D-B909-DD7B503B2933}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Courtyard_AMB" ID="{F8832BAC-7647-4D1B-850C-0ED879EFC9FC}" ShortID="195054928">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="5m" ID="{BFDB3CB6-43EB-4973-AA01-582175EFA0E9}" WorkUnitID="{6D32D8FB-B4B1-4248-B48C-0162CAE5AF10}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{888A2135-F196-4D9A-8CEC-6044EABB6522}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Quarry_OpenArea_Ambience" ID="{A860543C-7D65-4013-8521-DC3164ED9FDF}">
+							<Language>SFX</Language>
+							<AudioFile>Ambiences\Quarry_OpenArea_Ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="14376393"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Quarry_OpenArea_Ambience" ID="{A860543C-7D65-4013-8521-DC3164ED9FDF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
