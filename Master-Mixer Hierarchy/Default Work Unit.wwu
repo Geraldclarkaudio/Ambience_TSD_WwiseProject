@@ -12,13 +12,69 @@
 					<ChildrenList>
 						<AuxBus Name="Reverbs" ID="{60352D1F-B004-404C-AAC1-70B0EBEEA117}">
 							<ChildrenList>
-								<AuxBus Name="Courtyard" ID="{72DD58AC-C3D9-4C96-8706-A8FB9FC97600}"/>
-								<AuxBus Name="Room" ID="{D8546A3B-F6CF-4B78-87EA-4A327F997C41}"/>
+								<AuxBus Name="Courtyard" ID="{72DD58AC-C3D9-4C96-8706-A8FB9FC97600}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{F324865C-D852-4654-96E0-34E90D6A51F6}" ShortID="71727213">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Wwise_RoomVerb_(Custom)" ID="{3AE4D19E-91F2-4A90-81F8-9E4083DBAEBF}" ShortID="632232178" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Room" ID="{D8546A3B-F6CF-4B78-87EA-4A327F997C41}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{52C6DC6B-EBC7-4C85-8AC7-BAE5133A1A25}" ShortID="787029737">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Wwise_RoomVerb_(Custom)" ID="{A25DA412-EAA2-49C1-9475-F7180E2AB03B}" ShortID="52974697" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
 								<AuxBus Name="Beach" ID="{3EF9C2CF-89E4-435A-9381-0AEA24501001}"/>
 								<AuxBus Name="Space" ID="{1BB9F842-E8C2-4CE2-ADC6-C3696B84C8E6}"/>
 								<AuxBus Name="Desert" ID="{6EC3DBC1-E192-40C8-B22E-C244FBC58487}"/>
 							</ChildrenList>
 						</AuxBus>
+						<Bus Name="SFX" ID="{AE8846E6-461E-45C4-9FAA-04182FB72A6F}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

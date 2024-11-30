@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9342345-64A5-4541-AEAF-B58644A6146D}" SchemaVersion="123" RootDocumentID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}" ParentDocumentID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{F9342345-64A5-4541-AEAF-B58644A6146D}" OwnerID="{3F70C145-EF43-44D8-BE70-F8BDA6BCD893}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Basic_Laser" ID="{D595A0BA-0FF9-4FF4-AD14-CFC162C65330}">
+					<ChildrenList>
+						<Action Name="" ID="{8E1085E7-9E23-42A5-981E-CA548925FD99}" ShortID="438091536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Basic_Laser" ID="{1E632BF2-6DA7-498F-AD61-7944C8186562}" WorkUnitID="{4D62536D-59B8-4390-BEB7-30F7095A70F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

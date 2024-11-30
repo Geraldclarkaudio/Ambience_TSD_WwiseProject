@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	385465618	Play_Courtyard_AMB			\Terminal\Ambiences\Play_Courtyard_AMB	
 	1175029690	Play_Room_AMB			\Terminal\Ambiences\Play_Room_AMB	
+	2014730432	Play_Basic_Laser			\Terminal\SFX\Play_Basic_Laser	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	677781443	Basic_Laser	C:\Users\Gerald\Desktop\Wwise Projects\Ambience_TSD_WwiseProject\.cache\45\{450FE196-ED73-567E-34A8-778B8F36DD9E}.wem		\Actor-Mixer Hierarchy\SFX\Basic_Laser		254524
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	14376393	Courtyard_AMB	C:\Users\Gerald\Desktop\Wwise Projects\Ambience_TSD_WwiseProject\.cache\9E\{9E691EF6-369B-D27F-BEB0-DED99F8EB0C5}.wem	14376393.wem	\Actor-Mixer Hierarchy\Ambience\Courtyard_AMB	

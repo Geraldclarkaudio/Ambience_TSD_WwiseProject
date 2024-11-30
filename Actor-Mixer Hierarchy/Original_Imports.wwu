@@ -47,6 +47,28 @@
 						<ActiveSource Name="Halls_AMB" ID="{C7771751-7300-482A-B5A0-1D07BDC8F1A3}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Basic_Laser" ID="{BBD150B4-7BE6-4984-8D66-49E0D1F0C821}" ShortID="222071841">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{888A2135-F196-4D9A-8CEC-6044EABB6522}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{39C7D3F4-1704-4C67-9A99-7031D8830A21}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Basic_Laser" ID="{62D0A4B6-C9DB-4655-8001-E77DAF7E544F}">
+							<Language>SFX</Language>
+							<AudioFile>Guns\Firing\Basic_Laser.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="23596792"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Basic_Laser" ID="{62D0A4B6-C9DB-4655-8001-E77DAF7E544F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

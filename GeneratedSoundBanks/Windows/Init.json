@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{BD57CB5A-B092-5C14-6096-D78A75DC5D34}",
+    "Hash": "{4D1F688B-2FCF-F78E-6133-C28C729227C7}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "52974697",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Room\\[Effect Slot [0]: (RoomVerb)]\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{A25DA412-EAA2-49C1-9475-F7180E2AB03B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "632232178",
+       "Name": "Wwise_RoomVerb_(Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Courtyard\\[Effect Slot [0]: (RoomVerb)]\\Wwise_RoomVerb_(Custom)",
+       "GUID": "{3AE4D19E-91F2-4A90-81F8-9E4083DBAEBF}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,6 +54,12 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{AE8846E6-461E-45C4-9FAA-04182FB72A6F}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
@@ -48,6 +72,13 @@
       "Name": "Courtyard",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Courtyard",
       "GUID": "{72DD58AC-C3D9-4C96-8706-A8FB9FC97600}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "632232178"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "3545700988",
@@ -76,6 +107,13 @@
       "Name": "Room",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverbs\\Room",
       "GUID": "{D8546A3B-F6CF-4B78-87EA-4A327F997C41}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "52974697"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "3545700988",
@@ -514,6 +552,39 @@
       ]
      },
      {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Test",
+      "GUID": "{5CF1AAB3-F96E-4740-878A-3B05B06944F1}",
+      "Properties": [
+       {
+        "Name": "AbsorptionLow",
+        "Type": "Real32",
+        "Value": "0"
+       },
+       {
+        "Name": "AbsorptionMidLow",
+        "Type": "Real32",
+        "Value": "53"
+       },
+       {
+        "Name": "AbsorptionMidHigh",
+        "Type": "Real32",
+        "Value": "21"
+       },
+       {
+        "Name": "AbsorptionHigh",
+        "Type": "Real32",
+        "Value": "46"
+       },
+       {
+        "Name": "Scattering",
+        "Type": "Real32",
+        "Value": "0"
+       }
+      ]
+     },
+     {
       "Id": "3195498748",
       "Name": "Cork_Tiles",
       "ObjectPath": "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Cork_Tiles",
@@ -648,6 +719,6 @@
     ]
    }
   ],
-  "FileHash": "{D432C911-47CA-4AFB-1AFB-0805C6E63859}"
+  "FileHash": "{4F10B371-7E45-88CF-099F-682BFC6FA3A4}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{EDC5B05B-E9D1-403F-803F-0AC42D4A38A7}",
     "Language": "SFX",
-    "Hash": "{4089C5CD-49E9-C313-39FE-014D26EAFC7E}",
+    "Hash": "{6AFF5690-D423-A292-5F21-B7B1979F3888}",
     "ObjectPath": "\\SoundBanks\\Area_Specific\\Terminal_SB",
     "ShortName": "Terminal_SB",
     "Path": "Terminal_SB.bnk",
@@ -25,6 +25,14 @@
       "CachePath": "9E/{9E691EF6-369B-D27F-BEB0-DED99F8EB0C5}.wem"
      },
      {
+      "Id": "677781443",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns\\Firing\\Basic_Laser.wav",
+      "CachePath": "45/{450FE196-ED73-567E-34A8-778B8F36DD9E}.wem"
+     },
+     {
       "Id": "971195415",
       "Language": "SFX",
       "Streaming": "true",
@@ -35,6 +43,19 @@
      }
     ],
     "Events": [
+     {
+      "Id": "2014730432",
+      "Name": "Play_Basic_Laser",
+      "ObjectPath": "\\Events\\Terminal\\SFX\\Play_Basic_Laser",
+      "GUID": "{D595A0BA-0FF9-4FF4-AD14-CFC162C65330}",
+      "MaxAttenuation": "25",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "677781443"
+       }
+      ]
+     },
      {
       "Id": "385465618",
       "Name": "Play_Courtyard_AMB",
@@ -64,6 +85,6 @@
     ]
    }
   ],
-  "FileHash": "{5F165BC7-E209-8541-E536-52C1EBBEDA87}"
+  "FileHash": "{8A7304B3-FB5B-E4CE-6193-1B768B78FDE1}"
  }
 }

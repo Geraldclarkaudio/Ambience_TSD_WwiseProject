@@ -136,6 +136,13 @@
 						</AcousticTexture>
 					</ChildrenList>
 				</Folder>
+				<AcousticTexture Name="Test" ID="{5CF1AAB3-F96E-4740-878A-3B05B06944F1}">
+					<PropertyList>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="21"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="53"/>
+					</PropertyList>
+				</AcousticTexture>
 			</ChildrenList>
 		</WorkUnit>
 	</VirtualAcoustics>
